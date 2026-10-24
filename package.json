@@ -1,0 +1,29 @@
+{
+    "name": "drawdy-official-extension-excalidraw-libraries",
+    "version": "0.1.0",
+    "description": "Excalidraw libraries drawdy extension.",
+    "license": "UNLICENSED",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "node build.ts",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "perfect-freehand": "1.2.2",
+        "roughjs": "4.6.6"
+    },
+    "devDependencies": {
+        "@drawdy/driver-protocol": "link:../lemma/packages/drawdy-driver-protocol",
+        "@rollup/plugin-node-resolve": "^16.0.3",
+        "@rollup/plugin-terser": "^1.0.0",
+        "@rollup/plugin-typescript": "^12.1.2",
+        "@types/node": "^20",
+        "fflate": "^0.8.2",
+        "rollup": "^4.34.0",
+        "tslib": "^2.8.1",
+        "typescript": "^5",
+        "vite": "^8.2.1"
+    }
+}

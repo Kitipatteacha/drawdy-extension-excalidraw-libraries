@@ -1,0 +1,9 @@
+{
+  "driverId": "drawdy.excalidraw-libraries",
+  "driverName": "Excalidraw Libraries",
+  "driverVersion": "0.1.0",
+  "description": "Browse the community libraries from libraries.excalidraw.com and drop any item onto your board as editable shapes.",
+  "main": "main.js",
+  "icon": "assets/libraries.svg",
+  "permissions": ["dom", "scene"]
+}
